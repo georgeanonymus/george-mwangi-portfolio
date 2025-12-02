@@ -10,15 +10,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <style>
-        .project-card {
-            transition: transform 0.3s ease-in-out;
-        }
+        
 
-        .project-card:hover {
-            transform: translateY(-5px);
-        }
-
-        /* Custom Table Styling to Ensure Visibility over Tailwind Reset */
         .weekly-schedule-table {
             border-collapse: collapse;
             width: 100%;
@@ -26,7 +19,7 @@
 
         .weekly-schedule-table th,
         .weekly-schedule-table td {
-            /* Kept CSS padding for visuals, but added attribute below for compliance */
+
             padding: 12px 15px;
             text-align: left;
             border: 1px solid rgba(71, 85, 105, 0.5);
@@ -42,26 +35,25 @@
 
 <body class="bg-gradient-to-br from-slate-900 to-slate-800 text-white min-h-screen" onload="AOS.init()">
 
-    <nav class="fixed top-0 w-full bg-slate-900/90 backdrop-blur-sm z-50 p-4 shadow-lg">
-        <div class="max-w-6xl mx-auto flex justify-between items-center">
+    <nav class="fixed top-0 w-full bg-slate-900/90 backdrop-blur-sm z-50 p-4 shadow-lg max-w-6xl mx-auto flex justify-between items-center">
             <h1 class="text-2xl font-bold text-blue-400">George Mwangi (IT Student)</h1>
             <div class="hidden md:flex space-x-6">
                 <a href="#profile" class="hover:text-blue-400 transition-colors">Profile</a>
                 <a href="#hobbies" class="hover:text-blue-400 transition-colors">Hobbies & Goals</a>
                 <a href="#schedule" class="hover:text-blue-400 transition-colors">Schedule</a>
             </div>
-        </div>
+        
     </nav>
 
-    <header id="header" class="pt-32 pb-16 px-4 bg-slate-800/50">
-        <div class="max-w-6xl mx-auto">
+    <header  class="pt-32 pb-16 px-4 bg-slate-800/50 max-w-6xl mx-auto">
+        
             <h1 class="text-5xl font-extrabold mb-6 text-center text-blue-400" data-aos="zoom-in">
                 Welcome to My Personal Information Page
             </h1>
             <p class="text-xl text-gray-300 max-w-4xl mx-auto text-center leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                 My name is George Mwangi, a passionate second-year IT student at Jomo Kenyatta University of Agriculture and Technology (JKUAT). I’m deeply committed to technology, innovation, mentorship, and personal growth. Over the years, I’ve built a strong record of leadership, academic excellence, community impact, and faith-driven resilience. This webpage highlights who I am, my goals, my hobbies, and my weekly routine as I continue building both my career and my character.
             </p>
-        </div>
+    
     </header>
 
     <section id="profile" class="py-16 px-4">
@@ -77,12 +69,13 @@
             <div class="col-span-2 space-y-6" data-aos="fade-left">
                 <h2 class="text-3xl font-bold text-blue-400">Personal Profile & Vision</h2>
                 <p class="text-gray-300 leading-relaxed">
-                    I am a dedicated learner, mentor, and aspiring entrepreneur from Kenya. My journey has been shaped by overcoming challenges, strong faith in Jesus, and a passion for helping others succeed. I have created engineering projects for my school, interned at a bank handling transactions worth over 18 million daily, and I’m currently building my future ISP company named <strong>Omnira</strong>. I believe in excellence, innovation, and empowering others.
+                    I am a dedicated learner, mentor, and aspiring entrepreneur from Kenya. My journey has been shaped by overcoming challenges, strong faith in Jesus, and a passion for helping others succeed. I have created engineering projects for my school, interned at several companies, and I’m currently building my future ISP company named <strong>Omnira</strong>. I believe in excellence, innovation, and empowering others.
                 </p>
                 <a href="https://www.linkedin.com/in/george-mwangi-2636012a1/" title="Visit my professional profile" target="_blank"
                    class="inline-flex items-center space-x-2 py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg">
                     <i data-lucide="linkedin" class="w-5 h-5"></i>
                     <span>Visit Professional Profile</span>
+                    
                 </a>
             </div>
         </div>
